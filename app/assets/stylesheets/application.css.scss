@@ -1,0 +1,65 @@
+@import "bootstrap";
+
+body
+{
+  background-color: darken(#fff, 1%);
+  color: #000;
+}
+
+.navbar.navbar-default
+{
+  background-color: darken(#428bca, 6.5%);
+}
+
+.navbar-default .navbar-brand
+{
+  color: #F57F25;
+}
+
+.navbar-text.navbar-right
+{
+  color: #F57F25;
+}
+
+.navbar-text.navbar-right a
+{
+  color: #fff;
+}
+
+.navbar-link
+{
+  color: #F57F25;
+}
+
+.btn
+{
+  background-color: #fff;
+  border-color: #000
+}
+
+.btn-primary
+{
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+}
+
+.personal_photo {
+  float :right;
+}
+
+.role
+{
+  font-size: 15px;
+  color: #F57F25;
+}
+.name
+{
+  font-size: 25px
+}
+
+div .space
+{
+  width: 50px;
+  height: 60px;
+}

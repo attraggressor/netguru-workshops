@@ -1,0 +1,32 @@
+
+.row
+  .col-md-6
+
+    %h1.name
+      = @user.firstname
+      = @user.lastname
+      .role
+        = @user.admin? ? '(Admin)' : '(User)'
+    .email
+      = @user.email
+
+  .col-md-6
+    .personal_photo
+      =image_tag '/peter.jpg'
+
+
+%div.space
+
+%h3 Recent 5 reviews
+
+%table.table
+  %tr
+    %th Date
+    %th Content
+    %th.text-center Rating
+
+  - @reviews.each do |review|
+    %tr
+      %td= review.created_at.strftime('%d-%m-%Y')
+      %td= review.content
+      %td.text-center= review.rating
