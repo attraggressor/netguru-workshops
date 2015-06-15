@@ -1,7 +1,7 @@
 ##Workshops Application
 
 Application that has been modified according(hope so) to Netguru task list.
-Also available on heroku http://workshopsss.herokuapp.com/
+Also available on heroku http://krkworkshops.herokuapp.com/
 
 ##Necessary Setup
 
